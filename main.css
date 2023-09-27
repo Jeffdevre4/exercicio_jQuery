@@ -1,0 +1,56 @@
+
+input[type="tarefa-nova"]{
+    border-color:black; /* Cor da borda ao passar o mouse */
+    font-style: italic;
+    width: 200px;
+    margin: 10px; /* Margem ao redor do campo de entrada */
+    padding: 8px; /* Preenchimento interno do campo de entrada */
+    border-radius: 30%;
+    }
+
+    button[type="submit"] {
+        background-color: #007bff; /* Cor de fundo */
+        color: #fff; /* Cor do texto */
+        border: none; /* Remover borda */
+        border-radius: 16px; /* Bordas arredondadas */
+        cursor: pointer; /* Cursor ao passar o mouse */
+        padding: 14px;
+    
+        
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0056b3; /* Nova cor de fundo */
+    }
+
+
+    body  { 
+
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        min-height: 100vh; /* Garante que o contêiner ocupa a altura total da janela */
+        background-color:blueviolet; 
+    }
+
+.container {
+    text-align: center; /* Alinha o conteúdo ao centro horizontalmente */
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+input {
+    margin: 8px;
+    padding: 10px;
+    border: none;
+}
+
+.concluida {
+    text-decoration: line-through;
+    /*risquinho nas tarefas salvas*/
+}
+
